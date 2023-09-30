@@ -1,0 +1,23 @@
+.description{
+    word-break:break-word;
+}
+.chip{
+    margin: 4px;
+}
+.chip:hover{
+    cursor:text;
+}
+.title-content{
+    display: flex;
+    align-items: center;
+}
+.title-content > p{
+    margin-left: 4px;
+    font-size: 1.2em;
+}
+p{
+    font-family: monospace;
+}
+@media screen {
+    
+}
