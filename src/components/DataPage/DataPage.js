@@ -129,7 +129,7 @@ function DataPage() {
             justifyContent: "space-evenly",
           }}
         >
-          <Drawer anchor="right" open={drawer} onClose={() => setDrawer(false)}>
+          <Drawer PaperProps={{className:"drawer-box"}} anchor="right" open={drawer} onClose={() => setDrawer(false)}>
             <Box sx={{ display: "flex", justifyContent: "space-between" }}>
               <div className="drawer-title">
                 <h1>{selectedData["Title"]}</h1>
